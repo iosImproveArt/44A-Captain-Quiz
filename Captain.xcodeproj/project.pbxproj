@@ -11,6 +11,19 @@
 		F60CC1BB2D344487005F6D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60CC1B62D344487005F6D7A /* Assets.xcassets */; };
 		F60CC1BC2D344487005F6D7A /* CaptainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60CC1B72D344487005F6D7A /* CaptainApp.swift */; };
 		F60CC1BD2D344487005F6D7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60CC1B82D344487005F6D7A /* ContentView.swift */; };
+		F60CC1CE2D344A3D005F6D7A /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = F60CC1C02D344A3D005F6D7A /* privacy.html */; };
+		F60CC1CF2D344A3D005F6D7A /* PrivacyViewCQR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60CC1C12D344A3D005F6D7A /* PrivacyViewCQR.swift */; };
+		F60CC1D02D344A3D005F6D7A /* QuestionViewCaptain777.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60CC1C52D344A3D005F6D7A /* QuestionViewCaptain777.swift */; };
+		F60CC1D12D344A3D005F6D7A /* QuestionPickViewCaptain777.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60CC1C62D344A3D005F6D7A /* QuestionPickViewCaptain777.swift */; };
+		F60CC1D22D344A3D005F6D7A /* ImagePickerCaptain777.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60CC1CB2D344A3D005F6D7A /* ImagePickerCaptain777.swift */; };
+		F60CC1D32D344A3D005F6D7A /* NotificationCenterCaptain777.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60CC1CA2D344A3D005F6D7A /* NotificationCenterCaptain777.swift */; };
+		F60CC1D42D344A3D005F6D7A /* ExtensionsCaptain777.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60CC1C82D344A3D005F6D7A /* ExtensionsCaptain777.swift */; };
+		F60CC1D52D344A3D005F6D7A /* QuestionsViewCaptain777.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60CC1BE2D344A3D005F6D7A /* QuestionsViewCaptain777.swift */; };
+		F60CC1D62D344A3D005F6D7A /* LoadingViewCQR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60CC1BF2D344A3D005F6D7A /* LoadingViewCQR.swift */; };
+		F60CC1D72D344A3D005F6D7A /* FactsViewCaptain777.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60CC1C92D344A3D005F6D7A /* FactsViewCaptain777.swift */; };
+		F60CC1D82D344A3D005F6D7A /* ProfileViewCaptain777.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60CC1CC2D344A3D005F6D7A /* ProfileViewCaptain777.swift */; };
+		F60CC1D92D344A3D005F6D7A /* WebViewCQR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60CC1C22D344A3D005F6D7A /* WebViewCQR.swift */; };
+		F60CC1DA2D344A3D005F6D7A /* QuestionViewModelCaptain777.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60CC1C42D344A3D005F6D7A /* QuestionViewModelCaptain777.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,20 @@
 		F60CC1B62D344487005F6D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F60CC1B72D344487005F6D7A /* CaptainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptainApp.swift; sourceTree = "<group>"; };
 		F60CC1B82D344487005F6D7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F60CC1BE2D344A3D005F6D7A /* QuestionsViewCaptain777.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewCaptain777.swift; sourceTree = "<group>"; };
+		F60CC1BF2D344A3D005F6D7A /* LoadingViewCQR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewCQR.swift; sourceTree = "<group>"; };
+		F60CC1C02D344A3D005F6D7A /* privacy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = privacy.html; sourceTree = "<group>"; };
+		F60CC1C12D344A3D005F6D7A /* PrivacyViewCQR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewCQR.swift; sourceTree = "<group>"; };
+		F60CC1C22D344A3D005F6D7A /* WebViewCQR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCQR.swift; sourceTree = "<group>"; };
+		F60CC1C42D344A3D005F6D7A /* QuestionViewModelCaptain777.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModelCaptain777.swift; sourceTree = "<group>"; };
+		F60CC1C52D344A3D005F6D7A /* QuestionViewCaptain777.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewCaptain777.swift; sourceTree = "<group>"; };
+		F60CC1C62D344A3D005F6D7A /* QuestionPickViewCaptain777.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPickViewCaptain777.swift; sourceTree = "<group>"; };
+		F60CC1C82D344A3D005F6D7A /* ExtensionsCaptain777.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsCaptain777.swift; sourceTree = "<group>"; };
+		F60CC1C92D344A3D005F6D7A /* FactsViewCaptain777.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsViewCaptain777.swift; sourceTree = "<group>"; };
+		F60CC1CA2D344A3D005F6D7A /* NotificationCenterCaptain777.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterCaptain777.swift; sourceTree = "<group>"; };
+		F60CC1CB2D344A3D005F6D7A /* ImagePickerCaptain777.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCaptain777.swift; sourceTree = "<group>"; };
+		F60CC1CC2D344A3D005F6D7A /* ProfileViewCaptain777.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewCaptain777.swift; sourceTree = "<group>"; };
+		F60CC1DB2D344A66005F6D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +86,50 @@
 		F60CC1B92D344487005F6D7A /* Captain */ = {
 			isa = PBXGroup;
 			children = (
+				F60CC1DB2D344A66005F6D7A /* Info.plist */,
 				F60CC1B72D344487005F6D7A /* CaptainApp.swift */,
 				F60CC1B82D344487005F6D7A /* ContentView.swift */,
+				F60CC1BE2D344A3D005F6D7A /* QuestionsViewCaptain777.swift */,
+				F60CC1C32D344A3D005F6D7A /* LoadingCaptain777 */,
+				F60CC1C72D344A3D005F6D7A /* QuestionsCaptain777 */,
+				F60CC1C82D344A3D005F6D7A /* ExtensionsCaptain777.swift */,
+				F60CC1C92D344A3D005F6D7A /* FactsViewCaptain777.swift */,
+				F60CC1CA2D344A3D005F6D7A /* NotificationCenterCaptain777.swift */,
+				F60CC1CD2D344A3D005F6D7A /* ProfileCaptain777 */,
 				F60CC1B62D344487005F6D7A /* Assets.xcassets */,
 				F60CC1B52D344487005F6D7A /* Preview Content */,
 			);
 			path = Captain;
+			sourceTree = "<group>";
+		};
+		F60CC1C32D344A3D005F6D7A /* LoadingCaptain777 */ = {
+			isa = PBXGroup;
+			children = (
+				F60CC1BF2D344A3D005F6D7A /* LoadingViewCQR.swift */,
+				F60CC1C02D344A3D005F6D7A /* privacy.html */,
+				F60CC1C12D344A3D005F6D7A /* PrivacyViewCQR.swift */,
+				F60CC1C22D344A3D005F6D7A /* WebViewCQR.swift */,
+			);
+			path = LoadingCaptain777;
+			sourceTree = "<group>";
+		};
+		F60CC1C72D344A3D005F6D7A /* QuestionsCaptain777 */ = {
+			isa = PBXGroup;
+			children = (
+				F60CC1C42D344A3D005F6D7A /* QuestionViewModelCaptain777.swift */,
+				F60CC1C52D344A3D005F6D7A /* QuestionViewCaptain777.swift */,
+				F60CC1C62D344A3D005F6D7A /* QuestionPickViewCaptain777.swift */,
+			);
+			path = QuestionsCaptain777;
+			sourceTree = "<group>";
+		};
+		F60CC1CD2D344A3D005F6D7A /* ProfileCaptain777 */ = {
+			isa = PBXGroup;
+			children = (
+				F60CC1CB2D344A3D005F6D7A /* ImagePickerCaptain777.swift */,
+				F60CC1CC2D344A3D005F6D7A /* ProfileViewCaptain777.swift */,
+			);
+			path = ProfileCaptain777;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F60CC1BA2D344487005F6D7A /* Preview Assets.xcassets in Resources */,
+				F60CC1CE2D344A3D005F6D7A /* privacy.html in Resources */,
 				F60CC1BB2D344487005F6D7A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +207,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F60CC1BC2D344487005F6D7A /* CaptainApp.swift in Sources */,
+				F60CC1CF2D344A3D005F6D7A /* PrivacyViewCQR.swift in Sources */,
+				F60CC1D02D344A3D005F6D7A /* QuestionViewCaptain777.swift in Sources */,
+				F60CC1D12D344A3D005F6D7A /* QuestionPickViewCaptain777.swift in Sources */,
+				F60CC1D22D344A3D005F6D7A /* ImagePickerCaptain777.swift in Sources */,
+				F60CC1D32D344A3D005F6D7A /* NotificationCenterCaptain777.swift in Sources */,
+				F60CC1D42D344A3D005F6D7A /* ExtensionsCaptain777.swift in Sources */,
+				F60CC1D52D344A3D005F6D7A /* QuestionsViewCaptain777.swift in Sources */,
+				F60CC1D62D344A3D005F6D7A /* LoadingViewCQR.swift in Sources */,
+				F60CC1D72D344A3D005F6D7A /* FactsViewCaptain777.swift in Sources */,
+				F60CC1D82D344A3D005F6D7A /* ProfileViewCaptain777.swift in Sources */,
+				F60CC1D92D344A3D005F6D7A /* WebViewCQR.swift in Sources */,
+				F60CC1DA2D344A3D005F6D7A /* QuestionViewModelCaptain777.swift in Sources */,
 				F60CC1BD2D344487005F6D7A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,21 +356,29 @@
 				DEVELOPMENT_TEAM = FWVBV65566;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Captain/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Captain Quiz";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to set a photo for your profile.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = testleschenko.Captain;
+				PRODUCT_BUNDLE_IDENTIFIER = testleschenko;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,21 +393,29 @@
 				DEVELOPMENT_TEAM = FWVBV65566;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Captain/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Captain Quiz";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to set a photo for your profile.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = testleschenko.Captain;
+				PRODUCT_BUNDLE_IDENTIFIER = testleschenko;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
