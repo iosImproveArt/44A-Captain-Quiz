@@ -6,14 +6,14 @@ workflows:
         
         ios_signing:
             distribution_type: app_store
-            bundle_identifier: com.oldmanquiz
+            bundle_identifier: crownquizlet.com
             
         groups:
             - DEFAULT
         vars:
-          BUNDLE_ID: "com.oldmanquiz"
-          XCODE_WORK: "Oldman Quiz.xcodeproj"
-          XCODE_SCHEME: "Oldman Quiz"
+          BUNDLE_ID: "crownquizlet.com"
+          XCODE_WORK: "Captain.xcodeproj"
+          XCODE_SCHEME: "Captain"
           
       scripts:
         - name: Set up provisioning profiles settings on Xcode project

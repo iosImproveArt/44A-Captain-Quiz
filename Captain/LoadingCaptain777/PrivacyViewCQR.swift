@@ -11,7 +11,7 @@ struct PrivacyViewCaptain777: View {
     @AppStorage("urlString") var urlString = ""
     
     var bg: Color {
-        urlString.isEmpty ? Color.hex("#8D1938"): .black
+        urlString.isEmpty ? Color.hex("#A98357"): .black
     }
     
    var wrfw = "wfvrwv"
