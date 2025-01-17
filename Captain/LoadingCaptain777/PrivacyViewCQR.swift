@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct PrivacyViewCaptain777: View {
+struct PrivacyViewCaptain77734: View {
     @AppStorage("firstInApp") var firstInApp = true
     @Environment(\.dismiss) var dismiss
     @Binding var showLoading: Bool
@@ -109,5 +109,5 @@ struct PrivacyViewCaptain777: View {
 }
 
 #Preview {
-    PrivacyViewCaptain777(showLoading: .constant(true), fromMainView: false)
+    PrivacyViewCaptain77734(showLoading: .constant(true), fromMainView: false)
 }

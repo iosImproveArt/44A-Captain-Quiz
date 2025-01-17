@@ -22,7 +22,7 @@ struct Crown_QuizApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentViewCaptain777()
+            ContentViewCaptain77734()
         }
     }
 }

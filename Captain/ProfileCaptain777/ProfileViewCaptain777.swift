@@ -1,7 +1,7 @@
 
 import SwiftUI
 
-struct ProfileViewCaptain777: View {
+struct ProfileViewCaptain77734: View {
     @Environment(\.dismiss) var dismiss
     
     @State var userPhoto = ""
@@ -158,7 +158,7 @@ struct ProfileViewCaptain777: View {
 }
 
 #Preview {
-    ContentViewCaptain777(showLoading: false, selectedTab: .profile)
+    ContentViewCaptain77734(showLoading: false, selectedTab: .profile)
 }
 
 

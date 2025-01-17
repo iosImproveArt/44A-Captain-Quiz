@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct QuestionViewCaptain777: View {
+struct QuestionViewCaptain77734: View {
     @Environment(\.dismiss) var dismiss
-    @StateObject var vm: QuestionViewModelCaptain777
+    @StateObject var vm: QuestionViewModelCaptain77734
     
    var wrfw = "wfvrwv"
     var wrfvwr = 145.54524
@@ -20,8 +20,8 @@ struct QuestionViewCaptain777: View {
         print("cqefcqefc")
     }
     fileprivate struct Jrmfkc {}
-    init(type: GameTypeCaptain777) {
-        _vm = StateObject(wrappedValue: QuestionViewModelCaptain777(typeOfGame: type))
+    init(type: GameTypeCaptain77734) {
+        _vm = StateObject(wrappedValue: QuestionViewModelCaptain77734(typeOfGame: type))
     }
     
     var body: some View {
@@ -318,5 +318,5 @@ struct QuestionViewCaptain777: View {
 }
 
 #Preview {
-    QuestionViewCaptain777(type: .oneP)
+    QuestionViewCaptain77734(type: .oneP)
 }

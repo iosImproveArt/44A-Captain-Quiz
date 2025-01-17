@@ -1,7 +1,7 @@
 import UserNotifications
 
-class NotificationManagerCaptain777: NSObject, UNUserNotificationCenterDelegate {
-    static let shared = NotificationManagerCaptain777()
+class NotificationManagerCaptain77734: NSObject, UNUserNotificationCenterDelegate {
+    static let shared = NotificationManagerCaptain77734()
     
     private override init() {
         super.init()

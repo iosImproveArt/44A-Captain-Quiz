@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentViewCaptain777: View {
+struct ContentViewCaptain77734: View {
     @AppStorage("notificationsAvalible") var notificationsAvalible = true
     @State var showLoading = true
     @State var selectedTab: Tabs = .quiz
@@ -31,13 +31,13 @@ struct ContentViewCaptain777: View {
                         
                         switch selectedTab {
                         case .quiz:
-                            QuestionPickViewCaptain777()
+                            QuestionPickViewCaptain77734()
                         case .profile:
-                            ProfileViewCaptain777()
+                            ProfileViewCaptain77734()
                         case .facts:
-                            FactsViewCaptain777()
+                            FactsViewCaptain77734()
                         case .questions:
-                            QuestionsViewCaptain777()
+                            QuestionsViewCaptain77734()
                         }
                         tapBar
                     }.background(2, padding: 0)
@@ -55,7 +55,7 @@ struct ContentViewCaptain777: View {
     private var topBar: some View {
         HStack {
             NavigationLink {
-                PrivacyViewCaptain777(showLoading: .constant(true), fromMainView: true)
+                PrivacyViewCaptain77734(showLoading: .constant(true), fromMainView: true)
             } label: {
                 Text("Privacy policy")
                     .withFont(size: 16, weight: .light, color: .hex("FFFFFF"))
@@ -66,9 +66,9 @@ struct ContentViewCaptain777: View {
             Button {
                 notificationsAvalible.toggle()
                 if notificationsAvalible {
-                    NotificationManagerCaptain777.shared.createDailyNotification()
+                    NotificationManagerCaptain77734.shared.createDailyNotification()
                 } else {
-                    NotificationManagerCaptain777.shared.removePendingNotifications()
+                    NotificationManagerCaptain77734.shared.removePendingNotifications()
                 }
             } label: {
                 Image("notification.label")
@@ -126,7 +126,7 @@ struct ContentViewCaptain777: View {
 }
 
 #Preview {
-    ContentViewCaptain777(showLoading: false)
+    ContentViewCaptain77734(showLoading: false)
 }
 
 
